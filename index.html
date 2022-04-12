@@ -5,16 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Landing page</title>
 </head>
 <body>
     <div class="header">
-        <div class="logo">Header Logo</div>
-        <ul>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
-        </ul>
+        <div class="logo">Header Logo
+            <ul class="header-links">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="header__container">
+            <div class="header__container-left">
+                <div class="header__container-title">This website is 
+                    awesome</div>
+                <div class="header__container-text">This website has some subtext that goes here under the main title. 
+                    It's a smaller font and the color is lower contrast</div>
+                <button class="header-btn">Sign up</button>
+            </div>
+            <div class="header__container-right">
+
+                <img src="./img/wave.png" alt="A picture of beautiful painted wave" class="header-img">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container__info">
+            <div class="container__info-title">Some random information.</div>
+            <div class="container__info-body">
+                <div class="card">
+                    <img src="./img/lion.jpg" alt="a painted picture of a lion" class="rectangle-img">
+                    <div class="card-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="card">
+                    <img src="./img/lion.jpg" alt="a painted picture of a lion" class="rectangle-img">
+                    <div class="card-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="card">
+                    <img src="./img/lion.jpg" alt="a painted picture of a lion" class="rectangle-img">
+                    <div class="card-text">this is some subtext under an illustration or image</div>
+                </div>
+                <div class="card">
+                    <img src="./img/lion.jpg" alt="a painted picture of a lion" class="rectangle-img">
+                    <div class="card-text">this is some subtext under an illustration or image</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__quote">
+            <div class="container__quote-width">
+
+                <div class="container__quote-text">
+                    Stay away from those people who try to disparage your ambitions. Small minds will always do that, but great minds will give you a feeling that you can become great too.
+                </div>
+                <div class="container__quote-author">-Pink Guy</div>
+            </div>
+            </div>
     </div>
 
     <div class="footer">
